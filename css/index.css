@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4e8a74;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+ul li a:hover {
+    background-color: #4e8a74;
+    border-radius: 5px;
+}
+
+.login-join {
+    display: flex;
+    gap: 10px;
+}
+
+.velha-image img {
+    position: absolute;
+    bottom: 0;
+    left: 80%;
+    transform: translateX(-50%); 
+    max-width: 80%; 
+    max-height: 80%; 
+}
+
+.login-join a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.login-join a.login {
+    background-color: transparent;
+}
+
+.login-join a.join {
+    background-color: #7f6de8;
+}
+
+.login-join a:hover {
+    opacity: 0.8;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 100px;
+    background-color: #4e8a74;
+    position: relative;
+    height: 50vh;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-content h2 {
+    font-size: 36px;
+    color: #004a7c;
+    margin: 10px 0;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.btn-primary, .btn-secondary {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #7f6de8;
+}
+
+.btn-secondary {
+    background-color: #4e8a74;
+}
+
+.hero-image img {
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #4e8a74;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #1a1a2e;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.watermark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20vw; /* Ajuste conforme necessário */
+    color: rgba(255, 255, 255, 0.1); /* Transparente */
+    z-index: 1;
+    white-space: nowrap;
+    pointer-events: none;
+}
+
+.recuperar-senha-container {
+    background: #0f3460;
+    padding: 40px;
+    border-radius: 10px;
+    width: 40%;
+    max-width: 340px;
+    text-align: center;
+}
+
+.recuperar-senha-container h2 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+button {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #3282b8;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #295786;
+}
+
+.back-to-login {
+    display: block;
+    margin-top: 20px;
+    color: #3282b8;
+    text-decoration: none;
+}
+
+.back-to-login:hover {
+    text-decoration: underline;
+}
